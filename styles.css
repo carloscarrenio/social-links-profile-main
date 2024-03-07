@@ -1,5 +1,60 @@
+/* 
+Primary
+Green: hsl(75, 94%, 57%)
+Neutral
+White: hsl(0, 0%, 100%)
+Grey: hsl(0, 0%, 20%)
+Dark Grey: hsl(0, 0%, 12%)
+Off Black: hsl(0, 0%, 8%)
+*/
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+body {
+  border: solid red;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(0, 0%, 8%);
+}
+
+.main-container {
+  width: 330px;
+  max-width: 95%;
+  height: 600px;
+  max-height: 100%;
+  background-color: hsl(0, 0%, 12%);
+  border: solid;
+}
+
+.description-country {
+  color: hsl(75, 94%, 57%);
+}
+
+.description-about-me {
+  color: hsl(0, 10%, 88%);
+}
+
+/* text white */
+h1,
+a {
+  color: hsl(0, 0%, 100%);
+}
+
+/* btn */
+.social-links {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10%;
+}
+a {
+  text-decoration: none;
+  background-color: hsl(0, 0%, 20%);
+  padding: 15px 0;
+  margin: 0.5rem;
 }
