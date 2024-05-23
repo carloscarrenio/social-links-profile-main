@@ -8,4 +8,4 @@ Thanks for checking out this front-end coding challenge.
 
 [Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
 
-[link](https://carloscarrenio.github.io/social-links-profile-main)
+[link](https://gabrielcarreniomaker33.github.io/social-links-profile-main/)
